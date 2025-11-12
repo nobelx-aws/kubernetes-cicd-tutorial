@@ -54,5 +54,5 @@ jobs:
           git add deployment.yaml
           git commit -m "Update image to ${{ github.sha }}"
           
-          # Push
+          # Push and push
           git push -f https://${GIT_TOKEN}@github.com/nobelx-aws/grade-api-gitops.git main
